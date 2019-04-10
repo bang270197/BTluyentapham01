@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a=parseInt(prompt("Nhap so thu nhat"));
+    let b=parseInt(prompt("Nhap so thu hai"));
+   let kq= bai3(a,b);
+      document.write("ket qua tong"+kq);
+    function bai3(a,b) {
+        if (a>b)
+        {
+            alert("So thu nhat lon hon so thu hai");
+        }else if(a<=b)
+        {
+            let tong=0;
+            tong=a+b;
+            return tong;
+        }
+
+    }
+</script>
+</body>
+</html>
